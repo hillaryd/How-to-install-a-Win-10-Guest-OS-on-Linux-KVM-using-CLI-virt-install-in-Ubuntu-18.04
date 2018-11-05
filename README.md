@@ -7,7 +7,7 @@ This guide was written and tested in Ubuntu 18.04, 18.04.1
 
 ### Paste on Ubuntu cli
 
-``
+```bash
 sudo virt-install \
     --name=Windows10 \
     --ram=8192 \
@@ -20,7 +20,7 @@ sudo virt-install \
     --disk /var/lib/libvirt/boot/virtio-win-drivers-20120712-1.iso,device=cdrom,bus=ide \
     --network bridge=br0 \
     --graphics vnc,listen=0.0.0.0
-``
+```
 
 ### Output
 
