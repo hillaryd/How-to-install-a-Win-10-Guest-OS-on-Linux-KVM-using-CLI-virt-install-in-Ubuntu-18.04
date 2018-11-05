@@ -10,7 +10,7 @@ This guide was written and tested in Ubuntu 18.04, 18.04.1
 ```bash
 sudo virt-install \
     --name=Windows10 \
-    --ram=8192 \
+    --ram=4096 \
     --cpu host --hvm \
     --vcpus=2 \
     --os-type=windows \
